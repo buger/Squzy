@@ -26,6 +26,8 @@ input[type=submit], input[type=button] {
     position: relative;
 
     padding: 0 40px;
+
+    text-align: left;
 }
 
 #header {
