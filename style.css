@@ -1,0 +1,162 @@
+a {
+    text-decoration: none;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Trebuchet MS,Arial;
+}
+
+input[type=submit], input[type=button] {
+    background-color: #eee;
+    border: 0px;
+    font-weight: bold;
+    color: #505050;
+}
+
+#panel > .container, #header > .container {
+    margin: 0 20px;
+
+    max-width: 1640px;
+    min-width: 960px;
+    position: relative;
+}
+
+#header {
+    height: 35px;
+    width: 100%;
+    background-color: #404040;
+    color: white;
+    line-height: 35px;
+    font-weight: bold;
+    cursor: default;
+}
+
+#header > .container {
+    text-align: center;
+    height: 35px;
+    padding: 0 10px;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1em;
+    font-size: 108%;
+}
+
+#header a span {
+    font-family: Arial;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header .logo {
+    font-size: 168%;
+    float: left;
+}
+
+#header .slogan {
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#header .signup {
+    background: #eee;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#header i {
+    margin-right: 3px;
+}
+
+#header a small {
+    margin-left: 5px;
+}
+
+#header a sup {
+    vertical-align: top;
+    display: inline-block;
+}
+
+/* Search panel */
+
+#panel {
+    background-color: #afdeec;
+}
+
+#panel > .container {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#panel .faq {
+    width: 280px;   
+    background: #eee;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 131%;
+    color: #333;
+}
+
+#panel td.search > .container {
+    margin-right: 10px;
+    background-color: #718287;
+    padding: 10px;
+    padding-right: 110px;
+    position: relative;
+}
+
+#panel td.search input.search {    
+    height: 35px;
+    padding: 5px;
+    border: 0px solid #ccc;
+    width: 100%;
+    font-size: 167%;
+    color: #333;
+}
+
+#panel td.search input[type=submit] {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 146.5%;
+    width: 85px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#panel .search .sample {
+    padding: 5px;
+    color: white;
+    font-size: 108%;
+}
+
+#panel .sample strong {
+    font-weight: bold;
+}
+
+#panel .menu {
+}
+
+#panel .menu td .container {
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #656565;
+    font-size: 93%;
+}
+
+#panel .menu td .container a {
+    color: #656565;
+}
