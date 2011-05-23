@@ -8,6 +8,7 @@ a:hover {
 
 body {
     font-family: Trebuchet MS,Arial;
+    text-align: center;
 }
 
 input[type=submit], input[type=button] {
@@ -18,11 +19,13 @@ input[type=submit], input[type=button] {
 }
 
 #panel > .container, #header > .container {
-    margin: 0 40px;
+    margin: 0 auto;
 
     max-width: 1640px;
     min-width: 960px;
     position: relative;
+
+    padding: 0 40px;
 }
 
 #header {
